@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { json } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import MenuItems from "../../Pages/Shared/MenuItems/MenuItems";
 
