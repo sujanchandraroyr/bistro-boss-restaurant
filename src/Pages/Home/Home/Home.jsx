@@ -1,5 +1,6 @@
 import BistroBoss from "../../../components/BistroBoss/BistroBoss";
 import OrderOnline from "../../../components/OrderOnline/OrderOnline";
+import PopularManu from "../../../components/PopularManu/PopularManu";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner></Banner>
             <BistroBoss></BistroBoss>
             <OrderOnline></OrderOnline>
+            <PopularManu></PopularManu>
         </div>
     );
 };

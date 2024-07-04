@@ -1,4 +1,3 @@
-// '../../assets/reservation/category-pizza.jpg'
 
 const BistroBoss = () => {
   return (
