@@ -5,6 +5,7 @@ import Banner from "../Banner/Banner";
 import CallUs from "../CallUs/CallUs";
 import Fetured from "../Fetured/Fetured";
 import Recommends from "../Recommends/Recommends";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <CallUs></CallUs>
             <Recommends></Recommends>
             <Fetured></Fetured>
+            <Testimonials></Testimonials>
         </div>
     );
 };
