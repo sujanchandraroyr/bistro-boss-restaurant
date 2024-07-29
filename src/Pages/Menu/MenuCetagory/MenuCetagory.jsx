@@ -16,6 +16,8 @@ const MenuCetagory = ({ items, title, coverimage }) => {
 };
 
 MenuCetagory.propTypes = {
-    items: PropTypes.array
+    items: PropTypes.array,
+    title: PropTypes.string,
+    coverimage: PropTypes.string
 }
 export default MenuCetagory;

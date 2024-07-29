@@ -19,6 +19,7 @@
     "react-plx": "^2.1.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.24.0",
+    "react-tabs": "^6.0.2",
     "simple-parallax-js": "^6.0.1",
     "swiper": "^11.1.4"
   },

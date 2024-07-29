@@ -15,30 +15,29 @@ const OurMenu = () => {
     const salad = menu.filter(item => item.category === 'salad')
     const soup = menu.filter(item => item.category === 'soup')
     const pizza = menu.filter(item => item.category === 'pizza')
-    const drinks = menu.filter(item => item.category === 'drinks')
     const offered = menu.filter(item => item.category === 'offered')
-    
-    
-       return (
+
+
+    return (
         <div>
             <Helmet>
                 <title>Bistro Boss | OurMenu</title>
             </Helmet>
-            
+
             <Cover img={ourMenuimg} menutitle={'OUR MENU'} subtitle={"Would you like to try a dish?"}></Cover>
-           <SectionTitle heading="Don't miss" subHeading='To days offer'></SectionTitle>
-           {/*offered menu items*/}
-           <MenuCetagory items={offered}></MenuCetagory>
-           {/*dessert menu items*/}
-           <MenuCetagory items={deserts} title='DESSERTS' coverimage={ dessertimg}></MenuCetagory>
-           {/*pizza menu items*/}
-           <MenuCetagory items={pizza} title='PIZZA' coverimage={ pizzaimg}></MenuCetagory>
-           {/*salad menu items*/}
-           <MenuCetagory items={salad} title='SALADS' coverimage={ saladimg}></MenuCetagory>
-           {/*soup menu items*/}
-           <MenuCetagory items={soup} title='SOUPS' coverimage={ soupimg}></MenuCetagory>
-           
-            
+            <SectionTitle heading="Don't miss" subHeading='To days offer'></SectionTitle>
+            {/*offered menu items*/}
+            <MenuCetagory items={offered}></MenuCetagory>
+            {/*dessert menu items*/}
+            <MenuCetagory items={deserts} title='DESSERTS' coverimage={dessertimg}></MenuCetagory>
+            {/*pizza menu items*/}
+            <MenuCetagory items={pizza} title='PIZZA' coverimage={pizzaimg}></MenuCetagory>
+            {/*salad menu items*/}
+            <MenuCetagory items={salad} title='SALADS' coverimage={saladimg}></MenuCetagory>
+            {/*soup menu items*/}
+            <MenuCetagory items={soup} title='SOUPS' coverimage={soupimg}></MenuCetagory>
+
+
         </div>
     );
 };
